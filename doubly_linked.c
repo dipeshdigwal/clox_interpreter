@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-typedef struct
+typedef struct doubly_linked
 {
     struct doubly_linked *prev;
     int val;
