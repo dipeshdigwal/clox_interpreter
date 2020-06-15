@@ -1,0 +1,22 @@
+//  "+=" , "/*" operator missing from language 
+
+var a=20;
+
+// if-else 
+if (a>15){
+    print "True";
+} else{
+    print "False";
+}
+
+// while loop
+while (a<25){
+    print a;
+    a = a + 1; 
+}
+
+
+// for loop
+for (var b=10 ; b<20 ; b = b + 1){
+    print b;
+}

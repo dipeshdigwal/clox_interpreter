@@ -1,0 +1,22 @@
+fun printSum(a,b){
+    return a+b;
+}
+
+// CLOSURES
+fun identity(a){
+    return a;
+}
+
+print identity(printSum(2,3));
+print identity(printSum)(2,3);
+
+
+
+// function declaration inside a function.
+fun outerFunction() {
+  fun localFunction() {
+    print "I'm local!";
+  }
+
+  localFunction();
+}

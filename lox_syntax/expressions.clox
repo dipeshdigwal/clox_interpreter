@@ -1,0 +1,17 @@
+var a=8;
+var b=9;
+var c=10;
+
+// arithmetic
+print a+b;   
+
+// comparison and equality
+print a>b;
+print "cat" != "dog";
+
+// logical operators
+print a and b;
+print a or b;
+
+// precedence and grouping
+print (a + b)/2;
